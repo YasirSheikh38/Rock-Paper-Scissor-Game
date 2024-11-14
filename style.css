@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+
+    background-color: rgb(27, 23, 23);
+}
+
+.container{
+    color: white;
+    font-family: sans-serif;
+}
+
+.heading{
+    background-color: #12372A;
+    height: 4rem;
+}
+
+.images{
+    gap: 60px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.choice{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+
+.choice:hover{
+    background-color: #12372A;
+    cursor: pointer;
+}
+
+.choice img{
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.counter {
+    font-size: 50px;
+}
+
+.user{
+    font-size: 30px;
+}
+
+.msg{
+    margin-top: 45px;
+}
+
+.msg p{
+    background-color: #12372A;
+    border-radius: 20px;
+    padding: 15px;
+    display: inline;
+    font-size: 1.5rem;
+    color: white;
+}
